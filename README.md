@@ -12,7 +12,7 @@ sistem operasi Windows 11
 **1. Melakukan Instalasi Java Versi 1.8.0**
 untuk mengetahui apakah java telah terinstall pada perangkat anda, dapat menggunakan command "java -version"
 <p align="center" width="100%">
-    <img width="33%" src="./docs/java -version.jpeg"> 
+    <img width="33%" src="./docs/java-version.jpg"> 
 </p>
 
 **2. Melakukan Instalasi Apache Hadoop**
@@ -49,21 +49,21 @@ untuk mengecek apakah JAVA_HOME sudah terkonfirasi dengan benar, gunakan command
 
 **b. Konfiguurasi file core-site.xml**
 tambahkan konfigurasi berikut pada file tersebut
-<!--
+
 <configuration>
 <property>
   <name>fs.defaultFS</name>
   <value>hdfs://localhost:9000</value>
  </property>
 </configuration>
--->
+
 <p align="center" width="100%">
     <img width="33%" src="./docs/core-site.png">
 </p>
 
 **c. Konfiguurasi file hdfs-site.xml**
 tambahkan konfigurasi berikut pada file tersebut
-<!--
+
 <configuration>
  <property>
   <name>dfs.replication</name>
@@ -80,7 +80,7 @@ tambahkan konfigurasi berikut pada file tersebut
   <final>true</final>
  </property>
 </configuration>
--->
+
 <p align="center" width="100%">
     <img width="33%" src="./docs/hdfs.png">
 </p>
@@ -92,7 +92,7 @@ sebelum mengkonfigurasikan file hdfs-site.xml, buatlah sebuah folder data yang b
 </p>
 
 tambahkan konfigurasi berikut pada file tersebut
-<!--
+
 <configuration>
  <property>
   <name>dfs.replication</name>
@@ -109,43 +109,42 @@ tambahkan konfigurasi berikut pada file tersebut
   <final>true</final>
  </property>
 </configuration>
--->
+
 <p align="center" width="100%">
     <img width="33%" src="./docs/hdfs.png">
 </p>
 
 **e. Konfiguurasi file mapred-site.xml**
 tambahkan konfigurasi berikut pada file tersebut
-<!--
+
 <configuration>
-<property>
-<name>mapreduce.framework.name</name>
-<value>yarn</value>
-</property>
+ <property>
+  <name>mapreduce.framework.name</name>
+  <value>yarn</value>
+ </property>
 </configuration>
--->
+
 <p align="center" width="100%">
     <img width="33%" src="./docs/mapred-site.png">
 </p>
 
 **f. Konfiguurasi file yarn-site.xml**
 tambahkan konfigurasi berikut pada file tersebut
-<!--
+
 <configuration>
 
-<property>
-<name>yarn.nodemanager.aux-services</name>
-<value>mapreduce_shuffle</value>
-</property>
+ <property>
+  <name>yarn.nodemanager.aux-services</name>
+  <value>mapreduce_shuffle</value>
+ </property>
 
-<property>
-<name>yarn.nodemanager.auxservices.mapreduce.shuffle.class</name>
-<value>org.apache.hadoop.mapred.ShuffleHandler</value>
-</property>
+ <property>
+  <name>yarn.nodemanager.auxservices.mapreduce.shuffle.class</name>
+  <value>org.apache.hadoop.mapred.ShuffleHandler</value>
+ </property>
 
 </configuration>
 
--->
 <p align="center" width="100%">
     <img width="33%" src="./docs/yarn-site.png">
 </p>
