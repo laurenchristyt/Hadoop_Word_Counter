@@ -1,6 +1,6 @@
 # Hadoop_Word_Counter
 
-WordCount adalah salah satu program contoh yang digunakan secara luas untuk memahami konsep pemrograman MapReduce pada Apache Hadoop. Program ini dirancang untuk menghitung frekuensi kemunculan setiap kata dalam sejumlah besar dokumen teks.
+WordCount adalah salah satu program contoh yang digunakan secara luas untuk memahami konsep pemrograman MapReduce pada Apache Hadoop. Program ini dirancang untuk melakukan perhitungan frekuensi kemunculan setiap kata dalam sejumlah besar dokumen teks.
 
 # Langkah Instalasi Hadoop pada Windows
 
