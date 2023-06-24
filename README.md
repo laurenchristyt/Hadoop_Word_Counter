@@ -1,3 +1,8 @@
+<br />
+<div align="center">
+  <h1 align="center">Hadoop Word Counter</h1>
+</div>
+
 #### SBD Group E5:
 - Lauren Christy 
 - Rafi Fauzan
