@@ -1,3 +1,10 @@
+#### SBD Group E5:
+- Lauren Christy 
+- Rafi Fauzan
+- Najwa Fathiadisa
+- Mikhael Morris
+
+  
 # Hadoop_Word_Counter
 
 WordCount adalah salah satu program contoh yang digunakan secara luas untuk memahami konsep pemrograman MapReduce pada Apache Hadoop. Program ini dirancang untuk melakukan perhitungan frekuensi kemunculan setiap kata dalam sejumlah besar dokumen teks.
